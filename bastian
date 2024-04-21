@@ -1,0 +1,8 @@
+sudo groupadd mortal
+sudo groupadd kombat
+sudo useradd kitana -g mortal -G kombat
+mkdir /home/devasc/mortal
+touch /home/devasc/mortal/stratus.txt
+sudo chown kitana:mortal /home/devasc/mortal/stratus.txt
+sudo chmod 614 /home/devasc/mortal/stratus.txt
+
